@@ -1,0 +1,180 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.midden
+{
+  position: absolute;
+  top: 85px;
+  left: 670px;
+
+  font-family: futura
+
+}
+input
+{
+  position: absolute;
+  right: 700px;
+  top: 350px;
+  width: 30%;
+  border-radius: 20px;
+  font-size: 200%;
+
+}
+button
+{
+  position: relative;
+  right: 120px;
+  top: 420px;
+  width: 9%;
+  font-size: 150%;
+  border-radius: 10px;
+  background-color: gainsboro;
+  color: grey;
+}
+.links {
+  position: relative;
+  left: 70px;
+  top: 387px;
+  color: grey;
+}
+.xd
+{
+  position: absolute;
+  left :1848px;
+  top: 21px;
+  font-size: 65%;
+  font-family: calibri
+
+}
+.dot
+{
+  height: 40px;
+  width: 40px;
+  background-color: green;
+  border-radius: 50%;
+  display:inline-block;
+  position: absolute;
+  left :1840px;
+  top: 15px;
+  font-size: 140%
+}
+h1
+{
+color:  #ffffff
+}
+
+a:link
+{
+  text-decoration: none;
+}
+.afbeelding
+{
+  position: absolute;
+  left: 1730px;
+  top: 22px;
+
+}
+h2
+{
+  color: dimgrey;
+  font-size: 110%;
+}
+.gmail
+{
+  position: absolute;
+  left: 1670px;
+  top: 22px;
+}
+h3
+{
+  color: dimgrey;
+  font-size: 110%;
+}
+.rectangle
+{
+position: absolute;
+  height:  40px;
+  width:  1918px;
+  bottom:  0px;
+background: whitesmoke;
+}
+.rectangle2
+{
+  position: absolute;
+    height:  40px;
+    width:  1918px;
+    bottom:  40px;
+  background: whitesmoke;
+  border-color: silver;
+  border-style: solid;
+  border-width: 1px;
+  }
+  .nederland
+  {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: grey;
+    font-family: calibri light;
+  }
+  .adverteren
+  {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    color: grey;
+    font-family: calibri light;
+  }
+  h4
+  {
+    color: grey;
+  }
+.bedrijf
+{
+  position: absolute;
+  bottom: 10px;
+  left: 120px;
+  color: grey;
+  font-family: calibri light;
+}
+.over
+{
+  position: absolute;
+  bottom: 10px;
+  left: 180px;
+  color: grey;
+  font-family: calibri light
+}
+.googlezoeken
+{
+  position: absolute;
+  bottom: 10px;
+  left: 240px;
+  color: grey;
+  font-family: calibri light
+}
+.instellingen
+{
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  color: grey;
+  font-family: calibri light
+}
+.voorwaarden
+{
+  position: absolute;
+  bottom: 10px;
+  right: 120px;
+  color: grey;
+  font-family: calibri light
+}
+.privacy
+{
+  position: absolute;
+  bottom: 10px;
+  right: 240px;
+  color: grey;
+  font-family: calibri light
+}
