@@ -61,12 +61,14 @@ button
 }
 h1
 {
-color:  #ffffff
+  color:  #ffffff
 }
 
 a:link
 {
   text-decoration: none;
+  cursor: grab;
+
 }
 .afbeelding
 {
@@ -93,38 +95,37 @@ h3
 }
 .rectangle
 {
-position: absolute;
+  position: absolute;
   height:  40px;
   width:  1918px;
   bottom:  0px;
-background: whitesmoke;
+  background: whitesmoke;
 }
 .rectangle2
 {
   position: absolute;
-    height:  40px;
-    width:  1918px;
-    bottom:  40px;
+  height:  40px;
+  width:  1918px;
+  bottom:  40px;
   background: whitesmoke;
   border-color: silver;
   border-style: solid;
   border-width: 1px;
   }
-  .nederland
+.nederland
   {
-    position: absolute;
-    bottom: 50px;
-    left: 30px;
-    color: grey;
-    font-family: calibri light;
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
+  color: grey;    font-family: calibri light;
   }
   .adverteren
   {
-    position: absolute;
-    bottom: 10px;
-    left: 30px;
-    color: grey;
-    font-family: calibri light;
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  color: grey;
+  font-family: calibri light;
   }
   h4
   {
