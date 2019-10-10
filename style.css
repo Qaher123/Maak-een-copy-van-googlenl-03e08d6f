@@ -2,108 +2,91 @@
   padding: 0;
   margin: 0;
 }
-.midden
-{
-  position: absolute;
-  top: 85px;
-  left: 670px;
-
+.midden{
+  position: fixed;
+  top: 8%;
+  left: 36%;
   font-family: futura
-
 }
-input
-{
-  position: absolute;
-  right: 700px;
-  top: 350px;
+input{
+  position: fixed;
+  left: 33%;
+  top: 35%;
   width: 30%;
   border-radius: 20px;
   font-size: 200%;
-
 }
-button
-{
-  position: relative;
-  right: 120px;
-  top: 420px;
+.rechts{
+  position: fixed;
+  left: 40%;
+  top: 42%;
+}
+.knoppen{
   width: 9%;
-  font-size: 150%;
-  border-radius: 10px;
-  background-color: gainsboro;
+  font-size: 130%;
+  border-radius: 5%;
+  background-color: #f2f2f2;
   color: grey;
 }
 .links {
-  position: relative;
-  left: 70px;
-  top: 387px;
+  position: fixed;
+  left: 50%;
+  top: 42%;
   color: grey;
 }
-.xd
-{
-  position: absolute;
+.xd{
+  position: fixed;
   left :1848px;
   top: 21px;
   font-size: 65%;
   font-family: calibri
-
 }
-.dot
-{
+.dot{
   height: 40px;
   width: 40px;
   background-color: green;
   border-radius: 50%;
   display:inline-block;
-  position: absolute;
+  position: fixed;
   left :1840px;
   top: 15px;
   font-size: 140%
 }
-h1
-{
+h1{
   color:  #ffffff
 }
 
-a:link
-{
+a:link{
   text-decoration: none;
   cursor: grab;
-
 }
-.afbeelding
-{
-  position: absolute;
+.afbeelding{
+  position: fixed;
   left: 1730px;
   top: 22px;
-
 }
-h2
-{
+h2{
   color: dimgrey;
   font-size: 110%;
 }
-.gmail
-{
-  position: absolute;
+.gmail{
+  position: fixed;
   left: 1670px;
   top: 22px;
 }
-h3
-{
+h3{
   color: dimgrey;
   font-size: 110%;
 }
-.rectangle
-{
-  position: absolute;
+.rectangle{
+  position: fixed;
   height:  40px;
   width:  1918px;
-  bottom:  0px;
+  bottom:  0%;
   background: whitesmoke;
 }
-.rectangle2
-{
-  position: absolute;
+.rectangle2{
+  position: fixed;
   height:  40px;
   width:  1918px;
   bottom:  40px;
@@ -111,61 +94,85 @@ h3
   border-color: silver;
   border-style: solid;
   border-width: 1px;
-  }
-.nederland
-  {
-  position: absolute;
+}
+.rechthoek{
+  position: fixed;
+  height: 5%;
+  width: 30%;
+  left:34%;
+  top: 34%;
+  border-style: outset;
+  border-width: thin;
+  border-radius: 20px;
+}
+input{
+  position: fixed;
+  height: 4.40%;
+  left: 36.75%;
+  top: 34.40%;
+  width: 25%;
+  border-radius: 20px;
+  font-size: 200%;
+  border-style: hidden;
+}
+.zoekknop{
+  position: fixed;
+  top: 35%;
+  left: 35%;
+}
+.qaher{
+  position: fixed;
+  top: 34.50%;
+  left: 62%;;
+  width: 40px;
+  height: 40px;
+}
+.nederland{
+  position:fixed;
   bottom: 50px;
   left: 30px;
   color: grey;    font-family: calibri light;
-  }
-  .adverteren
-  {
-  position: absolute;
+}
+.adverteren{
+  position: fixed;
   bottom: 10px;
   left: 30px;
   color: grey;
   font-family: calibri light;
-  }
-  h4
-  {
-    color: grey;
-  }
-.bedrijf
-{
-  position: absolute;
+}
+h4{
+  color: grey;
+}
+.bedrijf{
+  position: fixed;
   bottom: 10px;
   left: 120px;
   color: grey;
   font-family: calibri light;
 }
-.over
-{
-  position: absolute;
+.over{
+  position: fixed;
   bottom: 10px;
   left: 180px;
   color: grey;
   font-family: calibri light
 }
-.googlezoeken
-{
-  position: absolute;
+.googlezoeken{
+  position: fixed;
   bottom: 10px;
   left: 240px;
   color: grey;
   font-family: calibri light
 }
-.instellingen
-{
-  position: absolute;
+.instellingen{
+  position: fixed;
   bottom: 10px;
   right: 30px;
   color: grey;
   font-family: calibri light
 }
-.voorwaarden
-{
-  position: absolute;
+.voorwaarden{
+  position: fixed;
   bottom: 10px;
   right: 120px;
   color: grey;
@@ -173,13 +180,18 @@ h3
 }
 .privacy
 {
-  position: absolute;
+  position: fixed;
   bottom: 10px;
   right: 240px;
   color: grey;
   font-family: calibri light
 }
-body
-{
+body{
   background-color: white;
+}
+.frysk
+{
+  top: 48%;
+  left: 45%;
+  position: fixed;
 }
